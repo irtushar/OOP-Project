@@ -1,12 +1,17 @@
 class Student:
-    def __init__(self, name, id, year):
+    def __init__(self, name, id, year, group):
         self.name = name
         self.id = id
         self.year = year
+        self.group = group
         self.attendance = {}
+        self.result = None
 
     def mark_attendance(self, date):
         self.attendance[date] = True
+
+    def add_result(self, score):
+        self.result = score
 
     def display_attendance(self):
         print("Attendance for", self.name)
@@ -14,6 +19,10 @@ class Student:
             print(date, ": Present" if present else ": Absent")
         print()
 
+    def display_result(self):
+        print("Result for", self.name)
+        print("Score:", self.result if self.result is not None else "No result available")
+        print()
 
 class StudentOperation:
     def __init__(self):
@@ -21,20 +30,31 @@ class StudentOperation:
 
     def registration(self):
         name = input("Please Enter Name: ")
-        id = input("Please Enter A Id: ")
+        id = input("Please Enter A Valid Id: ")
         year = int(input("Please Enter Student Year: "))
-        student = Student(name, id, year)
+        group = input("Please Enter Group (Science/Arts/Commerce): ")
+        student = Student(name, id, year, group)
         self.students.append(student)
         print("One student is inserted. Now total students are:", len(self.students))
         print()
 
     def mark_attendance(self):
         id = input("Please Enter Student ID: ")
-        date = input("Please Enter Attendance Date (): ")
+        date = input("Please Enter Attendance Date (YYYY-MM-DD): ")
         for student in self.students:
             if student.id.lower() == id.lower():
                 student.mark_attendance(date)
                 print("Attendance marked for", student.name)
+                return
+        print("No student found with the given ID.")
+
+    def add_result(self):
+        id = input("Please Enter Student ID: ")
+        score = float(input("Please Enter Score: "))
+        for student in self.students:
+            if student.id.lower() == id.lower():
+                student.add_result(score)
+                print("Result added for", student.name)
                 return
         print("No student found with the given ID.")
 
@@ -67,15 +87,15 @@ class StudentOperation:
         print("Name:", student.name)
         print("Id:", student.id)
         print("Year:", student.year)
+        print("Group:", student.group)
         student.display_attendance()
-
+        student.display_result()
 
 class Teacher:
     def __init__(self, name, id, initial):
         self.name = name
         self.id = id
         self.initial = initial
-
 
 class TeacherOperation:
     def __init__(self):
@@ -122,9 +142,8 @@ class TeacherOperation:
         print("Initial:", teacher.initial)
         print()
 
-
 if __name__ == "__main__":
-    print("Welcome to management system")
+    print("Welcome to College management system")
     student_operation = StudentOperation()
     teacher_operation = TeacherOperation()
 
@@ -138,6 +157,7 @@ if __name__ == "__main__":
         print("7 for teacher search by id")
         print("8 for teacher search by initial")
         print("9 for remove teacher by id")
+        print("10 for add student result")
         print("0 for exit the system")
 
         choice = int(input())
@@ -160,7 +180,10 @@ if __name__ == "__main__":
             teacher_operation.search_by_initial()
         elif choice == 9:
             teacher_operation.delete()
+        elif choice == 10:
+            student_operation.add_result()
         elif choice == 0:
             break
 
     print("Thank you for using our system")
+
