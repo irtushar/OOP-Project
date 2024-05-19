@@ -26,16 +26,30 @@ Features:
 
 Conclusion: College management system can be a powerful tool for improving the efficiency, accuracy, and communication within an educational institution. By considering the needs of all users and implementing the system effectively, colleges can reap the many benefits a CMS offers.
 
+![Screenshot 2024-05-19 083338](https://github.com/irtushar/OOP-Project/assets/110590857/668dc60c-6136-4a6c-b861-b78cbb94e8fb)
+![Screenshot 2024-05-19 083352](https://github.com/irtushar/OOP-Project/assets/110590857/980525b9-44bd-4c47-bee3-21a9b51306b3)
+![Screenshot 2024-05-19 083404](https://github.com/irtushar/OOP-Project/assets/110590857/592692b9-ca09-41a8-b8d5-3ec52f6cde9c)
+![Screenshot 2024-05-19 083414](https://github.com/irtushar/OOP-Project/assets/110590857/18fcb914-a559-421d-8fac-3c3fd77450b1)
+![Screenshot 2024-05-19 083423](https://github.com/irtushar/OOP-Project/assets/110590857/d52f4129-8ee2-41dd-8d17-4801fa358b8b)
+![Screenshot 2024-05-19 083441](https://github.com/irtushar/OOP-Project/assets/110590857/02fbcf8e-85cc-4443-be0c-41e5e36e2005)
+![Screenshot 2024-05-19 083508](https://github.com/irtushar/OOP-Project/assets/110590857/cd86ca2c-df31-4fae-9c43-ea8bc5384e69)
+![Screenshot 2024-05-19 083519](https://github.com/irtushar/OOP-Project/assets/110590857/48fde3e9-cb90-42e8-974f-d2a038a639dc)
+![Screenshot 2024-05-19 083530](https://github.com/irtushar/OOP-Project/assets/110590857/81556af3-affc-4265-b0c4-e6ad0d7bf5a9)
+![Screenshot 2024-05-19 083543](https://github.com/irtushar/OOP-Project/assets/110590857/23a99bd8-37be-439b-8366-d044ad35dc1f)
+![Screenshot 2024-05-19 083553](https://github.com/irtushar/OOP-Project/assets/110590857/59c70cdf-1006-4558-9e1b-13a367ae9483)
+![Screenshot 2024-05-19 083603](https://github.com/irtushar/OOP-Project/assets/110590857/05dc3705-c59f-480c-a196-88b21f084f4a)
+![Screenshot 2024-05-19 083615](https://github.com/irtushar/OOP-Project/assets/110590857/922d163a-c360-4d03-9a8f-4ab6484833be)
+![Screenshot 2024-05-19 083744](https://github.com/irtushar/OOP-Project/assets/110590857/3dbccdd5-b6d6-41ce-9166-8b4f8148f62e)
+![Screenshot 2024-05-19 083753](https://github.com/irtushar/OOP-Project/assets/110590857/12b1d973-2119-4851-9715-9cbe1d41a9fb)
 
 
-![Screenshot 2024-05-18 201056](https://github.com/irtushar/OOP-Project/assets/110590857/efc894f9-3279-4683-84c8-dd4fa811ce46)
-![Screenshot 2024-05-18 201112](https://github.com/irtushar/OOP-Project/assets/110590857/f72163a1-71d6-4c2b-8f7d-1a3ea793ef75)
-![Screenshot 2024-05-18 201129](https://github.com/irtushar/OOP-Project/assets/110590857/44e148f1-39a9-44f8-935d-d92f6f73c947)
-![Screenshot 2024-05-18 201143](https://github.com/irtushar/OOP-Project/assets/110590857/d863e51c-86b7-4c99-bed7-2d85f420d1ef)
-![Screenshot 2024-05-18 201155](https://github.com/irtushar/OOP-Project/assets/110590857/3c45d3a5-71a1-4ddc-8a9d-313531aad4a4)
-![Screenshot 2024-05-18 201208](https://github.com/irtushar/OOP-Project/assets/110590857/abdde1b8-3bf0-4a7f-b2c3-756002ad72ce)
-![Screenshot 2024-05-18 201222](https://github.com/irtushar/OOP-Project/assets/110590857/b9562e8c-d645-42ff-aeff-bafe55a6ea1b)
-![Screenshot 2024-05-18 201235](https://github.com/irtushar/OOP-Project/assets/110590857/35ebae72-bf18-4d3c-8770-b9a6ed8c2bba)
-![Screenshot 2024-05-18 201249](https://github.com/irtushar/OOP-Project/assets/110590857/5976413d-ac0a-419d-ba2f-fbdda24dabb0)
-![Screenshot 2024-05-18 201306](https://github.com/irtushar/OOP-Project/assets/110590857/f14a9b2e-c6d0-46f6-a493-682f500088ad)
+
+
+
+
+
+
+
+
+
 
